@@ -1,0 +1,217 @@
+/* Global Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body and Font Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.6;
+    background: linear-gradient(to right, #5f2c82, #49a09d);
+    color: #fff;
+}
+
+/* Header Styles */
+header {
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    padding: 15px 0;
+    text-align: center;
+    position: static;
+    top: 0;
+    width: 100%;
+    z-index: 10;
+}
+
+header .logo h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 2em;
+    color: #fff;
+}
+
+
+header nav ul {
+    list-style-type: none;
+    margin-top: 10px;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: normal;
+    font-size: 1em;
+}
+
+header nav ul li a:hover {
+    color: #f4a460;
+}
+
+
+
+
+/* Hero Section */
+.hero {
+    margin-top: 0px;
+    background: url('images/main.jpg') no-repeat center center/cover;
+    color: #DCC7B6;
+    text-align: center;
+    padding: 80px 10px;
+}
+
+.hero-content h2 {
+    font-size: 3.5em;
+    font-family: 'Playfair Display', serif;
+    margin-bottom: 0px;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    padding: 10px;
+}
+
+.hero-content p {
+    font-size: 2em;
+    margin-bottom: 20px;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.cta-btn {
+    padding: 15px 30px;
+    background: linear-gradient(90deg, #ff8c00, #ffcc00);
+    color: #333;
+    text-decoration: none;
+    font-size: 1.2em;
+    border-radius: 30px;
+    transition: all 0.3s ease;
+}
+
+
+.cta-btn:hover {
+    background: linear-gradient(90deg, #ffcc00, #ff8c00);
+    transform: scale(1.1);
+}
+
+/* Section Styles */
+section {
+    padding: 0px 20px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+h2 {
+    font-size: 2.5em;
+    margin-bottom: 30px;
+    font-family: 'Playfair Display', serif;
+}
+
+/* Destination Cards */
+.destinations-container, .crafts-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.destination-card, .craft-card {
+    background-color: #fff;
+    color: #333;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.destination-card img, .craft-card img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.destination-card:hover, .craft-card:hover {
+    transform: scale(1.05);
+}
+
+
+
+
+
+.cta-btn2 {
+    padding: 15px 30px;
+    background: linear-gradient(90deg, #ff8c00, #ffcc00);
+    color: #333;
+    text-decoration: none;
+    font-size: 1.2em;
+    border-radius: 30px;
+    transition: all 0.3s ease;
+}
+
+
+
+
+/* Developer Section */
+.developer-section {
+    margin-top: 30px;
+    background: linear-gradient(to bottom, #3366ff 45%, #cc99ff 100%);
+    color: #333;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.developer-section h2 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+.developer-section p {
+    font-size: 1.2em;
+    line-height: 1.8;
+}
+
+/* Contact Form */
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 600px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 15px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 30px;
+    font-size: 1em;
+}
+
+form button {
+    margin-top: 10px;
+    padding: 15px 30px;
+    background: linear-gradient(90deg, #ff8c00, #ffcc00);
+    color: #333;
+    border: none;
+    border-radius: 30px;
+    font-size: 1.2em;
+    cursor: pointer;
+    margin-bottom: -1px;
+}
+
+form button:hover {
+    background: linear-gradient(90deg, #ffcc00, #ff8c00);
+    transform: scale(1.1);
+}
+
+/* Footer */
+footer {
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
